@@ -1,0 +1,29 @@
+  
+#v3
+#git commands
+
+git init - set the directory as a git directory
+
+git clone "url" - copies all files from remote repository into the local dir
+
+git add <fileName>  --> add a new file to the local repository
+
+git commit -m "description" - commit changes to the local repository
+ 
+
+git remote -v {view the remote added to git}
+
+git remote add <origin> "url"
+
+git remote rm <dst>
+
+git --config {config username and email addr}
+
+# push changes into new branch
+# the r&d master would be able to rivew before merge the code
+{
+ git checkout -b new_branch_name
+ git push -u origin new_branch_name }
+
+#pushs and automaticlly merge to the master branch {not recomnded}
+git push origin master
