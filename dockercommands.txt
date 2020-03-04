@@ -1,0 +1,14 @@
+docker images - show list of all local images
+
+docker build -t <dockerName> - build a new image and place it inside the local repository
+
+docker run -p <outPort>:<inPort> -d <dockerName> - run the docker and do port mirroring
+
+docker ps - show all dockers running on the machine
+
+docker exec -it <container_id> /bin/bash
+
+#checking if the web server is working
+
+curl -i localhost:outPort
+
