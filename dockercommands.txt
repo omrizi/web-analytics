@@ -10,5 +10,6 @@ docker exec -it <container_id> /bin/bash
 
 #checking if the web server is working
 
+docker kill <dockerName> - kill running docker
 curl -i localhost:outPort
 
