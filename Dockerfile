@@ -1,5 +1,6 @@
 FROM node:10
 ###edited by omriki
+#edit test 2
 #edit 08102020 by omriki
 # Create app directory
 WORKDIR /usr/src/app
